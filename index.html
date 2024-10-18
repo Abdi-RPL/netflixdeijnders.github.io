@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deijnderss</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <select name="language" id="language">
+            <option value="en">English</option>
+            <option value="indonesia">Indonesia</option>
+            <!-- Add more languages here -->
+        </select>
+        <button>Sign In</button>
+    </div>
+
+    <div class="background">
+        <div class="overlay">
+            <div class="content">
+                <img src="image/netflix.png" alt="Netflix Logo" class="logo">
+                <h1>Unlimited movies, TV shows and more</h1>
+                <p>Starts at IDR 54,000. Cancel at any time.</p>
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                <form class="email-form">
+                    <input type="email" placeholder="Email address" required>
+                    <button type="submit">Get Started > </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <main class="main-slides">
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide" style="background: url(image/slide1.jpg);">
+                    Slide 1
+                    <div class="slide-iinfo">
+                        <h1 class="slide-tittle">Recently</h1>
+                        <h2 class="slide-desc">Added</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background: url(image/slide2.jpg);">
+                    Slide 2
+                    <div class="slide-iinfo">
+                        <h1 class="slide-tittle">Recently</h1>
+                        <h2 class="slide-desc">Added</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background: url(image/slide3.jpg);">
+                    Slide 3
+                    <div class="slide-iinfo">
+                        <h1 class="slide-tittle">Recently</h1>
+                        <h2 class="slide-desc">Added</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background: url(image/slide4.jpg);">
+                    Slide 4
+                    <div class="slide-iinfo">
+                        <h1 class="slide-tittle">Netflix</h1>
+                        <h2 class="slide-desc">Movie</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+    </main>
+
+    <!-- FAQ Section -->
+    <div class="section-faq">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq-list">
+            <div class="faq-entry">
+                <div class="faq-question">
+                    <span class="question-text">What is Netflix?</span>
+                    <span class="toggle-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+                    documentaries, and more on thousands of internet-connected devices.
+                    You can watch as much as you want, whenever you want, without a single ad all for one low monthly
+                    price. There's always something new to discover, and new TV shows and movies are added every week!
+                </div>
+            </div>
+
+            <div class="faq-entry">
+                <div class="faq-question">
+                    <span class="question-text">How much does Netflix cost?</span>
+                    <span class="toggle-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from IDR 54,000 to IDR 186,000 a month. No extra costs, no contracts.
+                </div>
+            </div>
+
+            <div class="faq-entry">
+                <div class="faq-question">
+                    <span class="question-text">Where can I watch?</span>
+                    <span class="toggle-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+                    You can also download your favorite shows with the iOS or Android app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+                </div>
+            </div>
+
+            <div class="faq-entry">
+                <div class="faq-question">
+                    <span class="question-text">How do I cancel?</span>
+                    <span class="toggle-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your
+                    account
+                    online in two clicks. There are no cancellation fees start or stop your account anytime.
+                </div>
+            </div>
+
+
+            <div class="faq-entry">
+                <div class="faq-question">
+                    <span class="question-text">What can I watch on Netflix?</span>
+                    <span class="toggle-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning
+                    Netflix originals, and more. Watch as much as you want, anytime you want.
+                </div>
+            </div>
+
+            <div class="faq-entry">
+                <div class="faq-question">
+                    <span class="question-text">Is Netflix good for kids?</span>
+                    <span class="toggle-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.
+
+Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Subscription Section -->
+    <div class="subscription-section">
+        <p class="subscription-text">Ready to watch? Enter your email to create or restart your membership.</p>
+        <form class="subscription-form">
+            <input type="email" class="email-input" placeholder="Email address" required>
+            <button type="submit" class="submit-button">Get Started ></button>
+        </form>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    <!-- Footer Section -->
+    <div class="site-footer">
+        <p class="footer-title">Have Questions? Call 007-803-321-2130</p>
+
+        <!-- Footer Links -->
+        <div class="footer-links">
+            <div class="footer-link-group">
+                <a href="#">FAQ</a>
+                <a href="#">Help Center</a>
+                <a href="#">Account</a>
+                <a href="#">Media Center</a>
+            </div>
+            <div class="footer-link-group">
+                <a href="#">Investor Relations</a>
+                <a href="#">Jobs</a>
+                <a href="#">Buy Gift Cards</a>
+                <a href="#">How to Watch</a>
+            </div>
+            <div class="footer-link-group">
+                <a href="#">Terms of Us</a>
+                <a href="#">Privacy.</a>
+                <a href="#">Cookie Preferences</a>
+                <a href="#">Corporate Information</a>
+            </div>
+            <div class="footer-link-group">
+                <a href="#">Contact Us</a>
+                <a href="#">Speed Test</a>
+                <a href="#">Legal Notices</a>
+                <a href="#">Only on Netflix</a>
+            </div>
+        </div>
+
+
+        <!-- Footer Bottom Text -->
+        <div class="footer-copyright">
+            <p>Netflix Web | Deijnderss</p>
+        </div>
+    </div>
+</body>
+
+</html>
